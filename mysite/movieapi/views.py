@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from myapp.models import Movie
+
+from .models import Movie
 from rest_framework import generics
 
 from .serializers import MovieSerializer
